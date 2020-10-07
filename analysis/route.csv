@@ -1,0 +1,364 @@
+route_short_name,route_long_name,n,bp_Easy,bp_Hard,bp_Medium,bp_NA,cf_Easy,cf_Hard,cf_Medium,cf_NA,rg_Easy,rg_Hard,rg_Medium,rg_NA
+100,Forest Lake/Inala - City,64,43,1,5,15,30,5,20,9,40,7,8,9
+101,Forest Lake - Oxley Station via Inala Durack,59,24,0,11,24,25,5,11,18,32,2,7,18
+102,Inala - Oxley,34,17,0,4,13,25,1,8,0,25,3,6,0
+103,Centenary - Inala Plaza,52,34,0,8,10,31,5,11,5,27,4,16,5
+104,Corinda - PA Hospital via Tennyson,58,33,1,11,13,31,6,18,3,39,4,12,3
+105,Indooroopilly - City via Yeronga,86,50,1,11,24,42,7,26,11,52,9,14,11
+106,Mt Ommaney - Indooroopilly via Corinda,64,39,0,10,15,35,6,16,7,37,5,15,7
+107,Yeronga - City,42,24,0,6,12,19,2,14,7,25,3,7,7
+108,Indooroopilly - City via Tennyson,60,34,1,9,16,27,4,21,8,37,5,10,8
+110,Inala - City,46,27,0,1,18,21,2,13,10,27,2,7,10
+111,Eight Mile Plains - City,10,1,0,0,9,1,0,0,9,1,0,0,9
+112,Griffith Uni Mt Gravatt - City,60,28,2,10,20,30,8,16,6,30,17,7,6
+113,Mt Gravatt Central - City,98,44,5,12,37,51,14,21,12,52,16,18,12
+114,Tarragindi - City,49,26,1,7,15,29,10,9,1,27,16,5,1
+115,Calamvale - City via Acacia Ridge Express,55,31,0,1,23,25,3,16,11,30,5,9,11
+116,Rocklea - City/Valley,76,39,6,17,14,35,10,24,7,36,15,18,7
+117,Acacia Ridge - Woollongabba,75,40,3,6,26,44,9,13,9,48,2,16,9
+118,Forest Lake - City,31,15,0,2,14,16,1,7,7,17,3,4,7
+120,Garden City - City via Tarragindi,33,22,1,1,9,14,5,8,6,12,6,9,6
+121,Salisbury - City/Valley,43,22,4,2,15,23,5,12,3,21,10,9,3
+122,Inala - Garden City,76,35,1,9,31,37,10,19,10,46,9,11,10
+122,Inala - Garden City (Community Bus),76,35,1,9,31,37,10,19,10,46,9,11,10
+123,Griffith University - Garden City,81,39,2,17,23,47,11,19,4,52,8,17,4
+124,Sunnybank - City/Valley,75,45,2,10,18,41,8,16,10,36,6,23,10
+125,Garden City - City/Valley via Salisbury,80,53,1,6,20,38,8,20,14,41,5,20,14
+126,Acacia Ridge - Sunnybank Plaza,20,8,0,4,8,8,1,5,6,9,4,1,6
+130,Parkinson - City,47,26,0,3,18,25,0,10,12,27,6,2,12
+131,Parkinson - City via Hellawell Rd,37,19,1,2,15,17,1,8,11,19,3,4,11
+132,Parkinson/Algester - Garden City,50,23,0,6,21,23,6,10,11,29,1,9,11
+134,Griffith University - City Rocket,4,2,0,0,2,2,0,0,2,1,0,1,2
+135,Parkinson - City Express,47,26,0,2,19,19,2,10,16,20,0,11,16
+136,Parkinson - City Precincts,37,22,0,2,13,21,1,10,5,25,5,2,5
+138,Algester - City,15,8,0,0,7,8,0,2,5,4,2,4,5
+139,Sunnybank Hills - UQ Lakes,26,9,0,2,15,11,0,5,10,15,1,0,10
+140,Browns Plains - City Express via Mains Road,30,14,0,3,13,15,0,7,8,20,1,1,8
+145,Browns Plains - Griffith University,34,19,0,3,12,15,1,10,8,22,1,3,8
+150,Browns Plains - City Express via Runcorn,43,27,1,0,15,21,2,7,13,19,3,8,13
+152,Stretton - Garden City,57,28,1,10,18,40,3,13,1,41,3,12,1
+153,Drewvale - City Rocket,40,18,0,1,21,15,1,6,18,17,2,3,18
+155,Calamvale - City Express via Griffith Uni,45,31,0,3,11,25,3,10,7,23,4,11,7
+156,Stretton - City Rocket,34,25,0,2,7,23,1,7,3,20,2,9,3
+160,Garden City - City,10,1,1,0,8,2,0,0,8,1,0,1,8
+161,Wishart Outlook - City,14,2,2,3,7,5,0,2,7,2,2,3,7
+162,Eight Miles Plains - City Rocket,1,0,0,0,1,0,0,0,1,0,0,0,1
+169,Eight Mile Plains - UQ Lakes,11,2,0,0,9,1,0,1,9,2,0,0,9
+170,Garden City - City Express via Newnham Road,16,7,0,3,6,5,1,4,6,8,1,1,6
+171,Garden City - City/Valley Rocket via Newnham Road,32,13,0,13,6,13,4,9,6,14,4,8,6
+172,Garden City - City via Greenslopes Hospital,90,40,3,14,33,38,15,22,15,51,13,11,15
+174,Garden City - City/Valley via Newnham Road,86,32,0,16,38,35,9,17,25,44,6,11,25
+175,Garden City - City via Logan Rd,71,28,0,10,33,31,4,15,21,41,3,6,21
+177,Carindale - Griffith Uni Mt Gravatt,42,25,1,11,5,17,9,15,1,25,11,5,1
+178,Carindale Heights - City/Valley via Mt Gravatt,45,25,1,7,12,19,7,11,8,26,6,5,8
+180,Garden City - City Express via Mansfield,34,13,0,9,12,14,4,8,8,16,3,7,8
+181,Wishart - City/Valley Rocket,41,12,2,14,13,12,9,11,9,18,7,7,9
+184,Garden City - City/Valley via Mt Gravatt Central,90,31,3,25,31,47,13,19,11,52,8,19,11
+185,Garden City - City/Valley via Mansfield,91,29,3,25,34,46,11,19,15,48,12,16,15
+186,Wishart - City Rocket,30,18,1,2,9,15,2,10,3,16,3,8,3
+192,UQ Lakes - City via Highgate Hill,50,20,1,18,11,24,6,15,5,32,4,9,5
+195,New Farm - City,28,16,0,3,9,17,5,2,4,16,3,5,4
+196,Fairfield Gardens - Merthyr via City/Valley,75,46,0,12,17,40,10,16,9,46,6,14,9
+198,Highgate Hill Hail 'n' Ride,42,22,2,10,8,22,7,9,4,21,5,12,4
+199,West End - Teneriffe Ferry via City/Valley,48,24,0,6,18,23,3,15,7,33,4,4,7
+200,Carindale Heights - City Express,30,14,1,4,11,8,4,8,10,12,4,4,10
+202,Carindale - City,62,23,2,13,24,30,8,20,4,38,14,6,4
+203,Carindale - City/Valley,60,22,2,8,28,32,6,9,13,31,10,6,13
+204,Carindale - City/Valley,77,20,1,30,26,34,14,17,12,45,9,11,12
+209,Carindale - UQ Lakes,11,2,0,3,6,2,0,4,5,4,1,1,5
+210,Cannon Hill - City/Valley,60,24,1,18,17,27,12,12,9,24,12,15,9
+212,Carindale - City/Valley via Seven Hills,52,19,1,16,16,24,11,12,5,30,10,7,5
+213,Cannon Hill - Carindale Express,33,13,0,6,14,13,5,8,7,22,1,3,7
+214,Cannon Hill - City Express,20,6,1,3,10,11,1,4,4,13,1,2,4
+215,Carindale - City Express via Tingalpa,66,27,1,9,29,31,7,17,11,41,4,10,11
+220,Wynnum - City Express,60,29,1,6,24,31,6,14,9,40,3,8,9
+222,Carindale - City Express via Eastern Busway,12,2,0,4,6,4,0,3,5,5,1,1,5
+223,Wynnum Loop Clockwise,67,26,1,11,29,28,14,11,14,31,8,14,14
+224,Wynnum Loop Anti-Clockwise,67,27,4,11,25,36,8,15,8,46,5,8,8
+225,Wynnum - Carindale,66,37,0,7,22,28,8,21,9,41,4,12,9
+227,Wynnum - City,95,44,2,14,35,49,15,10,21,54,6,14,21
+230,Balmoral - City via Riding Road,78,33,3,10,32,45,8,16,9,54,4,11,9
+232,Cannon Hill - City,98,53,5,7,33,62,11,16,9,64,9,16,9
+234,Woolloongabba - City Loop,18,7,0,2,9,5,2,3,8,6,1,3,8
+235,Balmoral - City/Valley via Thynne Road,77,35,2,12,28,47,6,16,8,50,8,11,8
+240,Capalaba - Wynnum,48,13,1,2,32,20,2,4,22,25,0,1,22
+242,Wakerley - Carindale (Loop),24,5,0,0,19,5,0,2,17,6,0,1,17
+243,Capalaba - Brisbane City,30,8,0,0,22,11,1,2,16,11,1,2,16
+250,Redland Bay - Brisbane City,18,6,0,1,11,3,1,4,10,5,1,2,10
+251,Ormiston - Brisbane City,11,7,0,1,3,4,1,4,2,5,1,3,2
+253,Capalaba - Thorneside,2,0,0,0,2,0,0,0,2,0,0,0,2
+260,Capalaba - QEII Hospital,18,6,0,1,11,5,1,2,10,2,1,5,10
+261,Mackenzie - Brisbane City,24,6,0,2,16,7,0,2,15,6,0,3,15
+262,Capalaba - QEII Hospital via Burbank,21,6,0,2,13,5,0,3,13,3,0,5,13
+265,Maridale Park - Brisbane City,7,4,0,1,2,3,0,2,2,2,0,3,2
+267,Alexandra Hills - Brisbane City,12,8,0,1,3,5,1,4,2,5,1,4,2
+27,Kangaroo Point - City shuttle,2,0,0,0,2,0,0,0,2,0,0,0,2
+270,Victoria Point Jetty - Carindale,14,5,0,1,8,2,1,4,7,4,1,2,7
+273,Cleveland - Brisbane City via Redland Bay Rd,11,7,0,1,3,4,1,4,2,5,1,3,2
+275,Thornlands - Brisbane City via Finucane Rd,11,7,0,1,3,4,1,4,2,5,1,3,2
+276,Victoria Point - Brisbane City,16,2,0,2,12,2,0,2,12,3,0,1,12
+279,Victoria Point Jetty - Brisbane City,16,2,0,2,12,2,0,2,12,3,0,1,12
+28,Langlands Park - UQ Lakes shuttle,6,1,0,0,5,0,0,1,5,1,0,0,5
+280,Point Talburpin - Griffith Uni,13,1,0,2,10,1,0,2,10,2,0,1,10
+281,Point Talburpin - Brisbane City,16,3,0,2,11,3,0,2,11,3,0,2,11
+29,Woolloongabba - UQ Lakes Shuttle,5,1,0,0,4,0,0,1,4,1,0,0,4
+299,Rochedale - Brisbane City,13,4,0,1,8,5,0,0,8,3,1,1,8
+30,Spring Hill  Loop,10,8,0,0,2,5,1,2,2,0,3,5,2
+300,Toombul - City via Hamilton,55,27,1,3,24,28,10,11,6,39,2,8,6
+301,Toombul - City via Hendra,79,44,2,1,32,45,10,15,9,51,7,12,9
+302,Pinkenba - City,39,17,1,4,17,13,8,7,11,21,2,5,11
+303,Myrtletown - Doomben,27,10,1,2,14,14,3,3,7,18,1,1,7
+304,Northsore Hamilton Loop via Doomben Station,14,6,0,1,7,5,2,2,5,9,0,0,5
+305,Hamilton - City,26,18,0,3,5,9,9,6,2,19,1,4,2
+306,Nudgee/Toombul - City,122,53,5,30,34,67,23,24,8,95,5,14,8
+307,Northgate East - Toombul Loop,33,9,3,11,10,20,7,2,4,27,0,2,4
+308,Toombul - Chermside Loop,13,5,1,3,4,7,2,3,1,9,0,3,1
+310,Brighton - City Express,45,28,2,7,8,32,4,8,1,38,3,3,1
+311,Brighton - Sandgate (Community Bus 1),19,11,2,4,2,10,3,4,2,12,0,5,2
+312,Sandgate - Brighton (Community Bus 2),21,10,2,4,5,7,6,7,1,13,0,7,1
+313,Shorncliffe (Community Bus),4,1,0,0,3,1,0,0,3,1,0,0,3
+314,Sandgate - Deagon & Shorncliffe (Community Bus),19,2,1,0,16,2,0,1,16,3,0,0,16
+320,Chermside - City via Wavell Heights,75,38,2,11,24,30,17,16,12,33,18,12,12
+321,Toombul - City via Kalinga,67,40,6,5,16,44,10,11,2,43,9,13,2
+322,Chermside - City via Toombul,98,48,4,22,24,44,24,25,5,54,14,25,5
+325,Boondall - City Express,67,33,2,14,18,35,10,17,5,46,6,10,5
+326,"Bracken Ridge - Toombul via Sandgate, Geebung",116,40,4,24,48,68,19,21,8,74,17,17,8
+327,Strathpine - Bracken Ridge & Toombul,114,41,0,36,37,56,27,21,10,75,15,14,10
+329,Bracken Ridge - Carseldine via Lacey Road,10,1,0,1,8,4,0,0,6,4,0,0,6
+330,Bracken Ridge - City Express,38,14,0,6,18,17,3,8,10,18,2,8,10
+333,Chermside - City,10,6,0,0,4,5,0,1,4,5,0,1,4
+334,Chermside - City via Kedron,59,27,2,9,21,35,12,8,4,35,9,11,4
+335,Sandgate - City Express via Kirby Road,60,34,2,4,20,36,7,11,6,37,6,11,6
+336,Chermside Clockwise Loop,38,9,2,12,15,24,11,1,2,25,3,8,2
+337,Chermside Anti-Clockwise Loop,42,17,2,10,13,23,2,11,6,22,4,10,6
+338,Strathpine - Chermside,33,16,0,8,9,20,5,3,5,16,2,10,5
+340,Carseldine - Woolloongabba Express via City,29,15,0,0,14,23,0,2,4,24,0,1,4
+345,Aspley - City Express via Maundrell Terrace,23,11,1,4,7,14,3,1,5,9,2,7,5
+346,Aspley - City,80,31,4,21,24,43,17,13,7,49,8,16,7
+350,Aspley - City Express via Bridgeman Downs,42,26,0,7,9,29,2,6,5,21,5,11,5
+351,Aspley - City Rocket via Bridgeman Downs,30,18,0,4,8,22,0,3,5,15,4,6,5
+352,McDowall - City Express,30,14,1,9,6,19,6,5,0,18,7,5,0
+353,Chermside - City via McDowall,99,45,3,24,27,56,16,18,9,56,13,21,9
+354,Mitchelton - Chermside,80,21,4,17,38,44,21,7,8,49,13,10,8
+357,Brendale - City Express,20,8,1,2,9,13,0,1,6,9,3,2,6
+359,Eatonvale - City Express via Albany Village,20,8,1,2,9,13,0,1,6,9,3,2,6
+360,Brookside - City via Everton Park,79,30,7,14,28,45,10,13,11,45,9,14,11
+361,Mitchelton - City,95,40,5,24,26,58,16,17,4,65,9,17,4
+362,The Gap - Mitchelton,62,32,2,19,9,33,10,19,0,41,8,13,0
+363,Herston - City,17,6,1,2,8,14,1,1,1,11,2,3,1
+364,Herston - City,34,13,1,7,13,19,5,5,5,14,5,10,5
+367,Great Western SC - Upper Kedron via Ferny Grove,23,6,0,9,8,12,1,5,5,10,4,4,5
+369,Mitchelton - Toombul via Stafford,27,12,0,3,12,14,4,4,5,17,2,3,5
+370,City - Chermside,39,25,2,3,9,23,5,5,6,22,2,9,6
+372,Ashgrove - City,75,35,3,14,23,49,11,9,6,48,6,15,6
+373,Ashgrove - City via Ashgrove Avenue,45,27,0,5,13,29,5,7,4,27,7,7,4
+375,Bardon - Stafford via City/Valley,81,48,4,6,23,48,9,18,6,46,9,20,6
+376,Stafford - City Express,24,9,1,2,12,16,3,1,4,15,0,5,4
+377,Ashgrove - City via Kennedy Terrace,36,19,3,2,12,21,4,11,0,16,13,7,0
+378,Ashgrove - City via Arthur Terrace,64,28,1,11,24,49,4,10,1,47,9,7,1
+379,Grange/Ashgrove - City,94,52,5,9,28,66,6,15,7,59,10,18,7
+380,The Gap - City via Hilder Road,84,49,0,17,18,57,4,16,7,50,15,12,7
+381,The Gap - City via Payne Road,96,53,0,23,20,62,7,20,7,56,19,14,7
+382,The Gap - City Rocket via Settlement Road,23,17,0,4,2,13,3,5,2,11,7,3,2
+383,The Gap - City Rocket via Payne Road,19,11,0,4,4,11,1,5,2,14,1,2,2
+385,The Gap - City Express,21,13,0,2,6,7,3,6,5,9,5,2,5
+390,Mitchelton - City,46,26,2,6,12,32,5,6,3,32,5,6,3
+393,Teneriffe Ferry - RBWH Loop,16,12,0,0,4,10,2,3,1,13,1,1,1
+396,Mitchelton - Arana Hills,5,0,1,1,3,0,1,1,3,2,0,0,3
+397,Ferny Grove - Mitchelton,12,3,1,2,6,2,1,3,6,3,1,2,6
+398,Mitchelton - Ferny Grove,24,12,0,5,7,10,5,6,3,13,2,6,3
+40,City Loop (Clockwise),7,5,0,1,1,4,0,2,1,4,1,1,1
+402,Toowong - University of Qld,10,4,0,3,3,5,1,2,2,5,2,1,2
+411,University of Qld - City via Hawken Drive,40,18,2,5,15,24,2,7,7,21,7,5,7
+412,University of Qld - City Express,12,3,1,2,6,7,0,2,3,7,1,1,3
+414,Indooroopilly - University of Qld via Taringa,42,21,2,6,13,26,5,9,2,23,10,7,2
+415,Indooroopilly - City via Taringa,48,18,2,10,18,25,5,11,7,28,4,9,7
+416,Duke Street - City,30,3,2,10,15,17,3,5,5,20,3,2,5
+417,Long Pocket - City,56,22,6,8,20,34,7,7,8,29,12,7,8
+425,Chapel Hill - City Express,40,20,3,3,14,18,3,10,9,20,10,1,9
+427,Chapel Hill - University of Qld Express,31,19,3,2,7,17,2,8,4,14,7,6,4
+428,Chapel Hill - University of Qld,56,30,6,6,14,35,7,10,4,25,15,12,4
+430,Fig Tree Pocket - City Express,35,15,1,6,13,17,3,8,7,18,1,9,7
+431,Kenmore South - City Rocket,25,13,1,7,4,16,2,7,0,12,9,4,0
+432,Kenmore - University of Qld Express,41,19,3,9,10,26,5,8,2,20,10,9,2
+433,Kenmore South - City,64,26,4,16,18,37,5,15,7,32,15,10,7
+435,Brookfield - City Express,47,20,4,7,16,30,5,7,5,26,8,8,5
+444,Moggill - City Express,43,17,2,8,16,25,3,7,8,21,4,10,8
+445,Fig Tree Pocket - City,65,33,1,10,21,32,3,19,11,35,8,11,11
+446,Kenmore - City Rocket,19,10,0,6,3,11,1,7,0,12,0,7,0
+450,Riverhills - City Express via Mt Ommaney,47,29,3,5,10,18,8,14,7,18,10,12,7
+451,Sinnamon Park - Darra Station,14,9,0,1,4,9,1,2,2,7,2,3,2
+452,Riverhills West - Darra Station,25,12,0,5,8,10,6,6,3,11,4,7,3
+453,Mt Ommaney - City Express,33,17,3,3,10,15,4,7,7,13,6,7,7
+454,Riverhills - City Express,30,17,1,2,10,10,5,8,7,13,4,6,7
+460,Heathwood - City Express,42,17,1,2,22,18,3,6,15,14,7,6,15
+463,Forest Lake Village - Goodna Station,38,20,1,5,12,18,2,14,4,28,2,4,4
+467,Oxley Station - Mt Ommaney via Sinnamon Park,36,18,2,5,11,19,4,10,3,17,6,10,3
+468,Oxley Station - Indooroopilly,32,13,1,5,13,19,5,4,4,18,1,9,4
+470,Toowong - Teneriffe Ferry,59,22,2,10,25,32,10,11,6,31,13,9,6
+471,Mt Coot-tha Lookout - City,31,9,3,7,12,24,1,4,2,19,5,5,2
+475,Rainworth - City,30,16,0,4,10,23,3,2,2,19,2,7,2
+476,Rainworth - City,30,17,0,4,9,21,5,3,1,14,5,10,1
+480,Mount Coot-tha shuttle,1,1,0,0,0,1,0,0,0,0,1,0,0
+50,City Loop (Anti-Clockwise),3,2,0,1,0,3,0,0,0,0,0,3,0
+500,Riverlink Shopping Centre - Goodna Station,2,0,0,0,2,0,0,0,2,0,0,0,2
+527,Orion - Goodna Station via Camira,1,0,0,0,1,0,0,0,1,0,0,0,1
+534,Browns Plains - Orion Springfield Central,45,21,1,3,20,21,2,11,11,28,3,3,11
+545,Browns Plains - Garden City,8,2,1,1,4,3,2,0,3,3,1,1,3
+547,Browns Plains - Woodridge,9,0,0,0,9,0,0,0,9,0,0,0,9
+551,Brisbane City - Crestmead,5,1,0,0,4,1,0,0,4,1,0,0,4
+552,Kingston - Hyperdome,1,0,0,0,1,0,0,0,1,0,0,0,1
+553,Trinder Park - Beenleigh,4,0,0,0,4,0,0,0,4,0,0,0,4
+554,Garden City - Logan Central,21,0,0,1,20,1,1,1,18,1,1,1,18
+555,Brisbane City - Hyperdome,11,1,0,0,10,1,0,0,10,1,0,0,10
+561,Brisbane City - Crestmead,5,1,0,0,4,1,0,0,4,1,0,0,4
+566,Brisbane City - Windaroo,5,1,0,0,4,1,0,0,4,1,0,0,4
+571,Brisbane City - Hyperdome,5,1,0,0,4,1,0,0,4,1,0,0,4
+573,Brisbane City - Hyperdome,5,1,0,0,4,1,0,0,4,1,0,0,4
+575,Brisbane City - Hyperdome via Daisy Hill,5,1,0,0,4,1,0,0,4,1,0,0,4
+576,Garden City - Springwood,7,0,0,0,7,0,0,0,7,0,0,0,7
+577,Brisbane City - Springwood,11,1,0,0,10,1,0,0,10,1,0,0,10
+578,Springwood - Garden City,12,0,0,0,12,0,0,0,12,0,0,0,12
+579,Brisbane City - Springwood,16,1,0,0,15,1,0,0,15,1,0,0,15
+586,Garden City - Springwood,6,0,0,0,6,0,0,0,6,0,0,0,6
+590,Garden City - Toombul via Carindale,27,16,0,4,7,13,1,7,6,10,5,6,6
+598,Great Circle Line Anti-Clockwise,66,36,2,5,23,35,1,16,14,32,9,11,14
+599,Great Circle Line Clockwise,62,44,1,6,11,41,4,12,5,36,10,11,5
+60,West End - Teneriffe Ferry via City/Valley,16,7,0,3,6,6,1,4,5,8,0,3,5
+61,Ashgrove Shops - Coorparoo via City,21,9,0,2,10,12,0,3,6,12,2,1,6
+66,UQ Lakes - RBWH via City,7,1,0,0,6,0,0,1,6,1,0,0,6
+671,Strathpine Shopping Centre - Warner via Bray Park,1,0,0,0,1,0,0,0,1,0,0,0,1
+672,Strathpine Shopping Centre - Warner Lakes,1,0,0,0,1,0,0,0,1,0,0,0,1
+680,Redcliffe - Chermside via North Lakes and Petrie,29,13,2,3,11,19,1,4,5,18,1,5,5
+690,Kippa-Ring - Sandgate via Redcliffe,19,9,1,2,7,11,1,3,4,11,0,4,4
+691,Redcliffe - Sandgate Station,19,9,1,2,7,11,1,3,4,11,0,4,4
+77,Eight Mile Plains - Chermside via CLEM7,15,7,0,0,8,6,0,1,8,6,0,1,8
+BDBR,Airport line - Brisbane City,6,0,1,0,5,2,0,0,4,2,0,0,4
+BDVL,Airport line - Varsity Lakes line,6,0,1,0,5,1,0,0,5,1,0,0,5
+BNBR,Beenleigh line - Brisbane City,5,0,0,0,5,1,0,0,4,1,0,0,4
+BNFG,Beenleigh line - Ferny Grove line,7,0,0,0,7,1,0,0,6,1,0,0,6
+BRBD,Brisbane City - Airport line,2,0,0,0,2,1,0,0,1,1,0,0,1
+BRBN,Brisbane City - Beenleigh line,14,0,0,0,14,0,0,0,14,0,0,0,14
+BRBR,Brisbane City - Brisbane City,5,0,0,0,5,1,0,0,4,1,0,0,4
+BRCA,Brisbane City - Caboolture line,5,0,0,0,5,1,0,0,4,1,0,0,4
+BRCL,Brisbane City - Cleveland line,13,0,0,1,12,2,0,0,11,1,0,1,11
+BRDB,Brisbane City - Doomben line,4,0,0,0,4,1,0,0,3,1,0,0,3
+BRFG,Brisbane City - Ferny Grove line,4,0,0,0,4,1,0,0,3,1,0,0,3
+BRGY,Brisbane City - Gympie North line,3,0,0,0,3,1,0,0,2,1,0,0,2
+BRIP,Brisbane City - Ipswich line,5,0,0,0,5,0,0,0,5,0,0,0,5
+BRNA,Brisbane City - Nambour line,1,0,0,0,1,0,0,0,1,0,0,0,1
+BRRP,Brisbane City - Redcliffe Peninsula Line,4,0,0,0,4,1,0,0,3,1,0,0,3
+BRSH,Brisbane City - Shorncliffe line,5,0,0,0,5,1,0,0,4,1,0,0,4
+BRSP,Brisbane City - Springfield line,5,0,0,0,5,0,0,0,5,0,0,0,5
+BRVL,Brisbane City - Varsity Lakes line,3,0,0,0,3,0,0,0,3,0,0,0,3
+CAIP,Caboolture line - Ipswich line,5,0,0,0,5,0,0,0,5,0,0,0,5
+CARW,Caboolture line - Rosewood line,5,0,0,0,5,0,0,0,5,0,0,0,5
+CASP,Caboolture line - Springfield line,5,0,0,0,5,0,0,0,5,0,0,0,5
+CLBR,Cleveland line - Brisbane City,9,0,0,1,8,2,0,0,7,1,0,1,7
+CLCL,Cleveland line - Cleveland line,9,0,0,1,8,2,0,0,7,1,0,1,7
+CLDB,Cleveland line - Doomben line,8,0,0,0,8,1,0,0,7,1,0,0,7
+CLSH,Cleveland line - Shorncliffe line,11,0,0,1,10,2,0,0,9,1,0,1,9
+DBBN,Doomben line - Beenleigh line,13,0,0,0,13,0,0,0,13,0,0,0,13
+DBBR,Doomben line - Brisbane City,7,0,0,0,7,1,0,0,6,1,0,0,6
+DBCL,Doomben line - Cleveland line,10,0,0,1,9,1,0,0,9,0,0,1,9
+FGBN,Ferny Grove line - Beenleigh line,19,0,0,0,19,0,0,0,19,0,0,0,19
+FGBR,Ferny Grove line - Brisbane City,10,0,0,0,10,1,0,0,9,1,0,0,9
+GYBR,Gympie North line - Brisbane City,1,0,0,0,1,1,0,0,0,1,0,0,0
+IPBR,Ipswich line - Brisbane City,2,0,0,0,2,0,0,0,2,0,0,0,2
+IPCA,Ipswich line - Caboolture line,5,0,0,0,5,1,0,0,4,1,0,0,4
+IPNA,Ipswich line - Nambour line,5,0,0,0,5,1,0,0,4,1,0,0,4
+IPRP,Ipswich line - Redcliffe Peninsula Line,3,0,0,0,3,0,0,0,3,0,0,0,3
+N100,Valley - Forest Lake NightLink,51,33,0,9,9,32,3,12,4,32,8,7,4
+N111,Valley - Eight Mile Plains NightLink,5,1,0,0,4,1,0,0,4,1,0,0,4
+N130,Valley - Algester/Parkinson NightLink,33,18,0,4,11,16,2,9,6,16,3,8,6
+N154,City/Valley - Browns Plains NightLink,32,17,0,0,15,15,1,3,13,12,2,5,13
+N184,Valley - Garden City NightLink via Cavendish Road,48,18,1,12,17,25,9,9,5,30,5,8,5
+N199,West End - Teneriffe Ferry NightLink,47,26,0,6,15,24,3,15,5,33,4,5,5
+N200,Valley - Carindale Heights NightLink,26,7,1,10,8,11,6,5,4,14,4,4,4
+N226,Valley - Wynnum NightLink via Bulimba,64,27,4,7,26,42,7,7,8,43,6,7,8
+N250,Fortitude Valley - Victoria Pt,23,3,0,11,9,11,3,4,5,13,1,4,5
+N310,City - Sandgate (NightLink),18,12,0,4,2,9,2,6,1,15,1,1,1
+N339,Valley - Bracken Ridge NightLink via Chermside,40,16,1,5,18,26,1,4,9,20,2,9,9
+N345,Aspley - Valley NightLink,56,23,3,17,13,36,9,5,6,30,4,16,6
+N385,Valley - The Gap NightLink,51,35,1,5,10,23,5,20,3,29,12,7,3
+N392,Valley - Ferny Grove NightLink,27,16,1,6,4,16,4,6,1,15,5,6,1
+N413,Valley - St Lucia NightLink,30,12,1,5,12,16,2,5,7,14,5,4,7
+N449,Valley - Riverhills NightLink via Indooroopilly,39,14,2,6,17,18,6,7,8,18,6,7,8
+N555,Fortitude Valley - Hyperdome,10,1,0,0,9,1,0,0,9,1,0,0,9
+NAIP,Nambour line - Ipswich line,5,0,0,0,5,0,0,0,5,0,0,0,5
+NASP,Nambour line - Springfield line,5,0,0,0,5,0,0,0,5,0,0,0,5
+NHAM,"UQ, South Bank, Riverside, Bretts Wharf, Apollo Rd",3,1,0,0,2,1,0,0,2,0,0,1,2
+NORM,Norman Park - New Farm Park,1,1,0,0,0,1,0,0,0,0,0,1,0
+NTHQ,City Hopper Sydney St - North Quay,2,0,0,0,2,0,0,0,2,0,0,0,2
+P119,QEII Hospital - City Pre-Paid Rocket,23,15,1,1,6,12,4,4,3,7,6,7,3
+P129,Algester - City Pre-Paid Rocket,17,11,0,0,6,7,0,5,5,10,2,0,5
+P137,Sunnybank Hills - City Pre-Paid Rocket,23,9,0,2,12,12,0,4,7,15,1,0,7
+P141,Browns Plains - City Pre-Paid Rocket,16,9,0,1,6,8,0,4,4,11,1,0,4
+P142,Browns Plains - City Pre-Paid Bullet,1,0,0,0,1,0,0,0,1,0,0,0,1
+P151,Calamvale - City Pre-Paid Rocket,27,9,0,2,16,12,1,4,10,13,3,1,10
+P157,Runcorn - City Pre-Paid Rocket,23,20,0,0,3,15,1,5,2,13,1,7,2
+P173,Mt Gravatt Central - City Pre-Paid Rocket,67,28,3,12,24,29,14,16,8,39,11,9,8
+P176,Garden City - City Pre-Paid Rocket via Logan Road,29,17,0,5,7,11,2,9,7,18,2,2,7
+P179,Garden City - City Pre-Paid Rocket via Mansfield,32,13,0,9,10,14,4,8,6,16,3,7,6
+P189,Holland Park - City Pre-Paid Express,8,2,0,1,5,4,0,1,3,4,0,1,3
+P201,Carindale  Heights - City Pre-Paid Rocket,22,11,1,1,9,5,4,4,9,7,3,3,9
+P205,Carindale Heights - City Pre-Paid Rocket,22,12,0,3,7,8,3,5,6,8,6,2,6
+P206,Carindale - City Precincts/Valley Pre-Paid Rocket,45,14,2,17,12,16,13,14,2,24,12,7,2
+P207,Carina - City Pre-Paid Rocket,7,1,0,3,3,2,0,3,2,3,1,1,2
+P208,Carindale - City Pre-Paid Rocket,49,22,2,8,17,25,7,15,2,31,10,6,2
+P211,Cannon Hill - City/Valley Pre-Paid Rocket,43,17,1,16,9,18,10,9,6,14,11,12,6
+P216,Tingalpa - City Pre-Paid Rocket,48,26,0,7,15,18,6,16,8,27,5,8,8
+P217,Carindale - City Pre-Paid Rocket,10,3,0,4,3,5,0,3,2,6,1,1,2
+P221,Wynnum - City Pre-Paid Rocket,44,26,0,3,15,22,5,11,6,28,4,6,6
+P228,Cannon Hill - City Pre-Paid Rocket,18,12,1,2,3,10,4,1,3,10,2,3,3
+P231,Balmoral - City Pre-Paid Express via Riding Road,33,16,2,2,13,20,3,8,2,26,2,3,2
+P236,Balmoral - City Pre-Paid Express via Thynne Road,37,15,2,9,11,24,3,8,2,23,9,3,2
+P331,Bracken Ridge - City Pre-Paid Rocket,42,20,0,6,16,21,3,10,8,20,6,8,8
+P332,Zillmere - UQ Pre-Paid Rocket,31,17,0,2,12,15,1,5,10,11,6,4,10
+P341,Taigum - City Pre-Paid Rocket,39,18,0,2,19,23,1,5,10,22,4,3,10
+P343,Aspley - City Pre-Paid Rocket,16,10,0,4,2,12,2,1,1,6,1,8,1
+P344,Carseldine - City Precincts Pre-Paid Express,35,18,1,2,14,23,2,3,7,19,4,5,7
+P384,The Gap - City Precincts Pre-Paid Rocket,21,13,0,2,6,11,2,3,5,9,5,2,5
+P426,Kenmore - City Pre-Paid Rocket via Chapel Hill,27,15,2,3,7,13,4,7,3,15,9,0,3
+P443,Moggil - City Pre-Paid Rocket,29,13,1,8,7,20,2,6,1,15,4,9,1
+P455,Riverhills - City Pre-Paid Rocket,20,14,0,3,3,7,4,7,2,8,4,6,2
+P456,Mt Ommaney - City Pre-Paid Rocket,21,14,2,3,2,11,3,6,1,7,6,7,1
+P546,Park Ridge - City via Greenbank & Griffith Uni,4,1,0,0,3,1,0,0,3,1,0,0,3
+P569,Brisbane City - Hyperdome,5,1,0,0,4,1,0,0,4,1,0,0,4
+P581,Brisbane City - Slacks Creek,5,1,0,0,4,1,0,0,4,1,0,0,4
+R109,Park Road - Albion via City,8,4,0,0,4,4,0,0,4,3,1,0,4
+R296,Manly - Park Road,13,9,0,0,4,7,0,2,4,7,2,0,4
+R348,Shorncliffe line,6,0,0,1,5,2,0,0,4,2,0,0,4
+R395,Ferny Grove - City,9,5,0,1,3,7,0,2,0,6,2,1,0
+R588,Park Road exp Altandi exp Loganlea exp Beenleigh,4,1,0,0,3,1,0,0,3,1,0,0,3
+R589,Kuraby all stations - Beenleigh,1,1,0,0,0,1,0,0,0,1,0,0,0
+R590,Park Road all stations - Kuraby,20,13,0,2,5,9,3,3,5,10,3,2,5
+R591,Yeerongpilly all stations - Albion,11,7,0,1,3,7,1,0,3,5,1,2,3
+R592,Corinda - Ipswich,7,3,0,2,2,4,0,1,2,3,0,2,2
+R594,Corinda - Ipswich,2,2,0,0,0,2,0,0,0,0,0,2,0
+R595,Ipswich line rail replacement,4,4,0,0,0,4,0,0,0,3,1,0,0
+R596,Springfield line rail replacement,19,11,0,3,5,11,0,3,5,10,1,3,5
+R597,Corinda - Ipswich,3,1,0,0,2,1,0,0,2,1,0,0,2
+R599,Ipswich / Springfield,12,7,0,2,3,6,0,3,3,6,0,3,3
+R603,Northgate all stations - Bowen Hills,8,2,0,1,5,2,1,1,4,3,0,1,4
+R604,Northgate - Roma Street,11,5,0,1,5,5,1,1,4,5,1,1,4
+R614,Bowen Hills - Zillmere exp - Caboolture,9,2,0,1,6,4,0,0,5,2,1,1,5
+R615,R615 - Roma Street - Caboolture (covers QR Train,1,0,0,0,1,0,0,0,1,0,0,0,1
+RPBR,Redcliffe Peninsula Line - Brisbane City,6,0,0,0,6,1,0,0,5,1,0,0,5
+RPIP,Redcliffe Peninsula Line - Ipswich line,9,0,0,0,9,0,0,0,9,0,0,0,9
+RPSP,Redcliffe Peninsula Line - Springfield line,9,0,0,0,9,0,0,0,9,0,0,0,9
+RWBR,Rosewood line - Brisbane City,2,0,0,0,2,0,0,0,2,0,0,0,2
+RWCA,Rosewood line - Caboolture line,2,0,0,0,2,0,0,0,2,0,0,0,2
+RWNA,Rosewood line - Nambour line,2,0,0,0,2,0,0,0,2,0,0,0,2
+RWRP,Rosewood line - Redcliffe Peninsula Line,4,0,0,0,4,0,0,0,4,0,0,0,4
+SHBR,Shorncliffe line - Brisbane City,11,0,0,0,11,1,0,0,10,1,0,0,10
+SHCL,Shorncliffe line - Cleveland line,20,0,0,1,19,2,0,0,18,1,0,1,18
+SPBR,Springfield line - Brisbane City,2,0,0,0,2,0,0,0,2,0,0,0,2
+SPCA,Springfield line - Caboolture line,4,0,0,0,4,0,0,0,4,0,0,0,4
+SPNA,Springfield line - Nambour line,4,0,0,0,4,0,0,0,4,0,0,0,4
+SPRP,Springfield line - Redcliffe Peninsula Line,6,0,0,0,6,1,0,0,5,1,0,0,5
+SYDS,City Hopper North Quay - Sydney St,2,0,0,0,2,0,0,0,2,0,0,0,2
+UQSL,"Apollo Rd, Bretts Wharf, Riverside, South Bank, UQ",3,1,0,0,2,1,0,0,2,0,0,1,2
+VLBD,Varsity Lakes line - Airport line,2,0,0,0,2,1,0,0,1,1,0,0,1
+VLBR,Varsity Lakes line - Brisbane City,2,0,0,0,2,1,0,0,1,1,0,0,1
+VLDB,Varsity Lakes line - Doomben line,2,0,0,0,2,0,0,0,2,0,0,0,2

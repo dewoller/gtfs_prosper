@@ -8,4 +8,128 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+
+
+```{r}
+source('_drake.R')
+
+loadd(routes)
+loadd(stops)
+loadd(stop_times)
+loadd(trips)
+loadd(stops_meshblocks)
+
+routes %>%
+  inner_join( trips ) %>%
+  distinct( route_short_name, route_long_name, trip_id) %>%
+  inner_join( stop_times ) %>%
+  distinct( route_short_name, route_long_name, stop_id) %>%
+  mutate(g_stop_id = as.character(stop_id)) %>%
+  inner_join( stops_meshblocks ) %>%
+  { . } -> df_all
+
+write_csv(df_all, 'output/joined.csv', )
+
+
+```
+
+
+```{r}
+
+df_all %>%
+  select( route_short_name, route_long_name, starts_with( 'mb_'),starts_with( 'sa1_'), boarding_p, road_gradi, cross_fall) %>%
+  { . } ->  df_selected
+
+df_selected %>%
+  count( route_short_name, route_long_name, boarding_p) %>%
+  pivot_wider( names_from='boarding_p', names_prefix='bp_', values_from='n') %>%
+  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  { . } -> bp
+
+df_selected %>%
+  count( route_short_name, route_long_name, cross_fall) %>%
+  pivot_wider( names_from='cross_fall', names_prefix='cf_', values_from='n') %>%
+  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  { . } -> cf
+
+df_selected %>%
+  count( route_short_name, route_long_name, road_gradi) %>%
+  pivot_wider( names_from='road_gradi', names_prefix='rg_', values_from='n') %>%
+  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  { . } -> rg
+
+bp %>%
+  mutate(n=bp_Easy + bp_NA+bp_Medium+bp_Hard) %>%
+  select( starts_with('route'), n, everything()) %>%
+  inner_join( cf ) %>%
+  inner_join( rg ) %>%
+  { . } -> df_by_route
+
+write_csv( df_by_route, 'analysis/route.csv' )
+
+
+
+df_all %>%
+  select( route_short_name, route_long_name, starts_with( 'mb_'),starts_with( 'sa1_'), boarding_p, road_gradi, cross_fall) %>%
+  { . } ->  df_selected
+
+df_selected %>%
+  count( sa1_main16, boarding_p) %>%
+  pivot_wider( names_from='boarding_p', names_prefix='bp_', values_from='n') %>%
+  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  { . } -> bp
+
+df_selected %>%
+  count( sa1_main16, cross_fall) %>%
+  pivot_wider( names_from='cross_fall', names_prefix='cf_', values_from='n') %>%
+  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  { . } -> cf
+
+df_selected %>%
+  count( sa1_main16, road_gradi) %>%
+  pivot_wider( names_from='road_gradi', names_prefix='rg_', values_from='n') %>%
+  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  { . } -> rg
+
+bp %>%
+  mutate(n=bp_Easy + bp_NA+bp_Medium+bp_Hard) %>%
+  inner_join( cf ) %>%
+  inner_join( rg ) %>%
+  { . } -> df_by_sa1
+
+write_csv( df_by_sa1, 'analysis/sa1.csv' )
+
+
+
+
+```
+
+# Routes
+
+```{r}
+
+df_by_route %>%
+  select(-starts_with('route_s'), -n) %>%
+  pivot_longer(-route_long_name ) %>%
+  ggplot( aes( route_long_name, value, color=name, fill=name ))+
+  geom_col() +
+  coord_flip()
+
+```
+
+
+# SA1
+
+```{r}
+
+df_by_sa1 %>%
+  mutate(sa1_main16=as.character(sa1_main16)) %>%
+  select(-n) %>%
+  pivot_longer(-sa1_main16 ) %>%
+  ggplot( aes( sa1_main16, value, color=name, fill=name ))+
+  geom_col() +
+  coord_flip()
+
+```
+
+
