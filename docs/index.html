@@ -416,16 +416,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong7c555d4"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> 7c555d4 </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomdewollergtfsprospertreea4794581241ef25a6ce03965fd946a61664dcd21targetblanka479458a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/dewoller/gtfs_prosper/tree/a4794581241ef25a6ce03965fd946a61664dcd21" target="_blank">a479458</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrong7c555d4" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomdewollergtfsprospertreea4794581241ef25a6ce03965fd946a61664dcd21targetblanka479458a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version 7c555d4. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/dewoller/gtfs_prosper/tree/a4794581241ef25a6ce03965fd946a61664dcd21" target="_blank">a479458</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -437,18 +437,10 @@ Ignored files:
     Ignored:    keys.R
 
 Untracked files:
-    Untracked:  .env
-    Untracked:  R/
-    Untracked:  _drake.R
-    Untracked:  analysis/route.csv
-    Untracked:  analysis/sa1.csv
-    Untracked:  explore/
-    Untracked:  output/joined.csv
-    Untracked:  packages.R
+    Untracked:  output/route.csv
+    Untracked:  output/sa1.csv
 
 Unstaged changes:
-    Deleted:    .Rprofile
-    Modified:   .gitignore
     Modified:   analysis/index.Rmd
 
 </code></pre>
@@ -493,7 +485,41 @@ Message
 Rmd
 </td>
 <td>
-7c555d4
+<a href="https://github.com/dewoller/gtfs_prosper/blob/a4794581241ef25a6ce03965fd946a61664dcd21/analysis/index.Rmd" target="_blank">a479458</a>
+</td>
+<td>
+Dennis Wollersheim
+</td>
+<td>
+2020-10-07
+</td>
+<td>
+initial commit
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/dewoller/gtfs_prosper/a4794581241ef25a6ce03965fd946a61664dcd21/docs/index.html" target="_blank">a479458</a>
+</td>
+<td>
+Dennis Wollersheim
+</td>
+<td>
+2020-10-07
+</td>
+<td>
+initial commit
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/dewoller/gtfs_prosper/blob/7c555d4270cc1b266c2017fda5ba3a4c11f29281/analysis/index.Rmd" target="_blank">7c555d4</a>
 </td>
 <td>
 Dennis Wollersheim
@@ -543,40 +569,19 @@ routes %&gt;%
 df_selected %&gt;%
   count( route_short_name, route_long_name, boarding_p) %&gt;%
   pivot_wider( names_from=&#39;boarding_p&#39;, names_prefix=&#39;bp_&#39;, values_from=&#39;n&#39;) %&gt;%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %&gt;%
-  { . } -&gt; bp</code></pre>
-<pre><code>Warning: Problem with `mutate()` input `..1`.
-ℹ Predicate functions must be wrapped in `where()`.
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %&gt;%
+  { . } -&gt; bp
 
-  # Bad
-  data %&gt;% select(is.numeric)
-
-  # Good
-  data %&gt;% select(where(is.numeric))
-
-ℹ Please update your code.
-This message is displayed once per session.
-ℹ Input `..1` is `across(is.numeric, function(x) replace_na(x, 0))`.</code></pre>
-<pre><code>Warning: Predicate functions must be wrapped in `where()`.
-
-  # Bad
-  data %&gt;% select(is.numeric)
-
-  # Good
-  data %&gt;% select(where(is.numeric))
-
-ℹ Please update your code.
-This message is displayed once per session.</code></pre>
-<pre class="r"><code>df_selected %&gt;%
+df_selected %&gt;%
   count( route_short_name, route_long_name, cross_fall) %&gt;%
   pivot_wider( names_from=&#39;cross_fall&#39;, names_prefix=&#39;cf_&#39;, values_from=&#39;n&#39;) %&gt;%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %&gt;%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %&gt;%
   { . } -&gt; cf
 
 df_selected %&gt;%
   count( route_short_name, route_long_name, road_gradi) %&gt;%
   pivot_wider( names_from=&#39;road_gradi&#39;, names_prefix=&#39;rg_&#39;, values_from=&#39;n&#39;) %&gt;%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %&gt;%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %&gt;%
   { . } -&gt; rg
 
 bp %&gt;%
@@ -587,7 +592,7 @@ bp %&gt;%
   { . } -&gt; df_by_route</code></pre>
 <pre><code>Joining, by = c(&quot;route_short_name&quot;, &quot;route_long_name&quot;)
 Joining, by = c(&quot;route_short_name&quot;, &quot;route_long_name&quot;)</code></pre>
-<pre class="r"><code>write_csv( df_by_route, &#39;analysis/route.csv&#39; )
+<pre class="r"><code>write_csv( df_by_route, &#39;output/route.csv&#39; )
 
 
 
@@ -598,19 +603,19 @@ df_all %&gt;%
 df_selected %&gt;%
   count( sa1_main16, boarding_p) %&gt;%
   pivot_wider( names_from=&#39;boarding_p&#39;, names_prefix=&#39;bp_&#39;, values_from=&#39;n&#39;) %&gt;%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %&gt;%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %&gt;%
   { . } -&gt; bp
 
 df_selected %&gt;%
   count( sa1_main16, cross_fall) %&gt;%
   pivot_wider( names_from=&#39;cross_fall&#39;, names_prefix=&#39;cf_&#39;, values_from=&#39;n&#39;) %&gt;%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %&gt;%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %&gt;%
   { . } -&gt; cf
 
 df_selected %&gt;%
   count( sa1_main16, road_gradi) %&gt;%
   pivot_wider( names_from=&#39;road_gradi&#39;, names_prefix=&#39;rg_&#39;, values_from=&#39;n&#39;) %&gt;%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %&gt;%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %&gt;%
   { . } -&gt; rg
 
 bp %&gt;%
@@ -620,7 +625,7 @@ bp %&gt;%
   { . } -&gt; df_by_sa1</code></pre>
 <pre><code>Joining, by = &quot;sa1_main16&quot;</code></pre>
 <pre><code>Joining, by = &quot;sa1_main16&quot;</code></pre>
-<pre class="r"><code>write_csv( df_by_sa1, &#39;analysis/sa1.csv&#39; )</code></pre>
+<pre class="r"><code>write_csv( df_by_sa1, &#39;output/sa1.csv&#39; )</code></pre>
 <div id="routes" class="section level1">
 <h1>Routes</h1>
 <pre class="r"><code>df_by_route %&gt;%
@@ -630,6 +635,43 @@ bp %&gt;%
   geom_col() +
   coord_flip()</code></pre>
 <p><img src="figure/index.Rmd/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-3-1">
+Past versions of unnamed-chunk-3-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/dewoller/gtfs_prosper/blob/a4794581241ef25a6ce03965fd946a61664dcd21/docs/figure/index.Rmd/unnamed-chunk-3-1.png" target="_blank">a479458</a>
+</td>
+<td>
+Dennis Wollersheim
+</td>
+<td>
+2020-10-07
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="sa1" class="section level1">
 <h1>SA1</h1>
@@ -641,6 +683,43 @@ bp %&gt;%
   geom_col() +
   coord_flip()</code></pre>
 <p><img src="figure/index.Rmd/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-4-1">
+Past versions of unnamed-chunk-4-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-4-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/dewoller/gtfs_prosper/blob/a4794581241ef25a6ce03965fd946a61664dcd21/docs/figure/index.Rmd/unnamed-chunk-4-1.png" target="_blank">a479458</a>
+</td>
+<td>
+Dennis Wollersheim
+</td>
+<td>
+2020-10-07
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">

@@ -43,19 +43,19 @@ df_all %>%
 df_selected %>%
   count( route_short_name, route_long_name, boarding_p) %>%
   pivot_wider( names_from='boarding_p', names_prefix='bp_', values_from='n') %>%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %>%
   { . } -> bp
 
 df_selected %>%
   count( route_short_name, route_long_name, cross_fall) %>%
   pivot_wider( names_from='cross_fall', names_prefix='cf_', values_from='n') %>%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %>%
   { . } -> cf
 
 df_selected %>%
   count( route_short_name, route_long_name, road_gradi) %>%
   pivot_wider( names_from='road_gradi', names_prefix='rg_', values_from='n') %>%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %>%
   { . } -> rg
 
 bp %>%
@@ -65,7 +65,7 @@ bp %>%
   inner_join( rg ) %>%
   { . } -> df_by_route
 
-write_csv( df_by_route, 'analysis/route.csv' )
+write_csv( df_by_route, 'output/route.csv' )
 
 
 
@@ -76,19 +76,19 @@ df_all %>%
 df_selected %>%
   count( sa1_main16, boarding_p) %>%
   pivot_wider( names_from='boarding_p', names_prefix='bp_', values_from='n') %>%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %>%
   { . } -> bp
 
 df_selected %>%
   count( sa1_main16, cross_fall) %>%
   pivot_wider( names_from='cross_fall', names_prefix='cf_', values_from='n') %>%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %>%
   { . } -> cf
 
 df_selected %>%
   count( sa1_main16, road_gradi) %>%
   pivot_wider( names_from='road_gradi', names_prefix='rg_', values_from='n') %>%
-  mutate( across(is.numeric, function(x) replace_na(x,0))) %>%
+  mutate( across(where(is.numeric), function(x) replace_na(x,0))) %>%
   { . } -> rg
 
 bp %>%
@@ -97,7 +97,7 @@ bp %>%
   inner_join( rg ) %>%
   { . } -> df_by_sa1
 
-write_csv( df_by_sa1, 'analysis/sa1.csv' )
+write_csv( df_by_sa1, 'output/sa1.csv' )
 
 
 
